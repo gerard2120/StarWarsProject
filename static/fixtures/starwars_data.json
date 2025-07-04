@@ -1,0 +1,1100 @@
+[
+  {
+    "model": "characters.film",
+    "pk": 1,
+    "fields": {
+      "title": "The Phantom Menace",
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.film",
+    "pk": 2,
+    "fields": {
+      "title": "Attack of the Clones",
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.film",
+    "pk": 3,
+    "fields": {
+      "title": "Revenge of the Sith",
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.film",
+    "pk": 4,
+    "fields": {
+      "title": "A New Hope",
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.film",
+    "pk": 5,
+    "fields": {
+      "title": "The Empire Strikes Back",
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.film",
+    "pk": 6,
+    "fields": {
+      "title": "Return of the Jedi",
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 1,
+    "fields": {
+      "name": "Carmen Delgado",
+      "height": 184,
+      "mass": 89.5,
+      "hair_color": "Red",
+      "gender": "male",
+      "homeworld": "Argentina",
+      "dob": "23BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char1",
+      "films": [
+        5,
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 2,
+    "fields": {
+      "name": "Carmen Mart\u00ednez",
+      "height": 163,
+      "mass": 55.9,
+      "hair_color": "Brown",
+      "gender": "other",
+      "homeworld": "Mexico",
+      "dob": "12BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char2",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 3,
+    "fields": {
+      "name": "Jose Mart\u00ednez",
+      "height": 200,
+      "mass": 67.2,
+      "hair_color": "Red",
+      "gender": "male",
+      "homeworld": "Naboo",
+      "dob": "28BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char3",
+      "films": [
+        3,
+        6,
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 4,
+    "fields": {
+      "name": "Jose G\u00f3mez",
+      "height": 195,
+      "mass": 97.1,
+      "hair_color": "Black",
+      "gender": "male",
+      "homeworld": "Peru",
+      "dob": "21BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char4",
+      "films": [
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 5,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 181,
+      "mass": 82.6,
+      "hair_color": "None",
+      "gender": "other",
+      "homeworld": "Tatooine",
+      "dob": "36BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char5",
+      "films": [
+        6,
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 6,
+    "fields": {
+      "name": "Carmen G\u00f3mez",
+      "height": 171,
+      "mass": 92.1,
+      "hair_color": "Black",
+      "gender": "male",
+      "homeworld": "Argentina",
+      "dob": "58BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char6",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 7,
+    "fields": {
+      "name": "Carmen P\u00e9rez",
+      "height": 178,
+      "mass": 71.9,
+      "hair_color": "Black",
+      "gender": "female",
+      "homeworld": "Alderaan",
+      "dob": "57BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char7",
+      "films": [
+        5,
+        6,
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 8,
+    "fields": {
+      "name": "Diego Mart\u00ednez",
+      "height": 187,
+      "mass": 50.9,
+      "hair_color": "Red",
+      "gender": "other",
+      "homeworld": "Mexico",
+      "dob": "15BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char8",
+      "films": [
+        3,
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 9,
+    "fields": {
+      "name": "Diego P\u00e9rez",
+      "height": 191,
+      "mass": 74.9,
+      "hair_color": "Black",
+      "gender": "male",
+      "homeworld": "Alderaan",
+      "dob": "33BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char9",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 10,
+    "fields": {
+      "name": "Diego G\u00f3mez",
+      "height": 156,
+      "mass": 111.0,
+      "hair_color": "None",
+      "gender": "male",
+      "homeworld": "Coruscant",
+      "dob": "26BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char10",
+      "films": [
+        6,
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 11,
+    "fields": {
+      "name": "Diego Mart\u00ednez",
+      "height": 170,
+      "mass": 77.1,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Tatooine",
+      "dob": "21BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char11",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 12,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 178,
+      "mass": 104.3,
+      "hair_color": "Blond",
+      "gender": "male",
+      "homeworld": "Argentina",
+      "dob": "18BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char12",
+      "films": [
+        5,
+        6,
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 13,
+    "fields": {
+      "name": "Ana G\u00f3mez",
+      "height": 196,
+      "mass": 98.6,
+      "hair_color": "Black",
+      "gender": "female",
+      "homeworld": "Naboo",
+      "dob": "39BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char13",
+      "films": [
+        5,
+        4,
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 14,
+    "fields": {
+      "name": "Ana P\u00e9rez",
+      "height": 187,
+      "mass": 107.4,
+      "hair_color": "Brown",
+      "gender": "other",
+      "homeworld": "Alderaan",
+      "dob": "13BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char14",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 15,
+    "fields": {
+      "name": "Ana Delgado",
+      "height": 171,
+      "mass": 54.6,
+      "hair_color": "Blond",
+      "gender": "male",
+      "homeworld": "Tatooine",
+      "dob": "16BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char15",
+      "films": [
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 16,
+    "fields": {
+      "name": "Jose P\u00e9rez",
+      "height": 196,
+      "mass": 79.6,
+      "hair_color": "Blond",
+      "gender": "female",
+      "homeworld": "Argentina",
+      "dob": "55BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char16",
+      "films": [
+        1,
+        3,
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 17,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 183,
+      "mass": 94.6,
+      "hair_color": "Brown",
+      "gender": "other",
+      "homeworld": "Chile",
+      "dob": "23BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char17",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 18,
+    "fields": {
+      "name": "Carmen Mart\u00ednez",
+      "height": 177,
+      "mass": 94.3,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Peru",
+      "dob": "44BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char18",
+      "films": [
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 19,
+    "fields": {
+      "name": "Jose Mart\u00ednez",
+      "height": 202,
+      "mass": 111.0,
+      "hair_color": "Black",
+      "gender": "female",
+      "homeworld": "Alderaan",
+      "dob": "30BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char19",
+      "films": [
+        3,
+        6,
+        5
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 20,
+    "fields": {
+      "name": "Jose P\u00e9rez",
+      "height": 176,
+      "mass": 83.9,
+      "hair_color": "Red",
+      "gender": "other",
+      "homeworld": "Chile",
+      "dob": "57BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char20",
+      "films": [
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 21,
+    "fields": {
+      "name": "Luis Ruiz",
+      "height": 179,
+      "mass": 95.6,
+      "hair_color": "Black",
+      "gender": "other",
+      "homeworld": "Mexico",
+      "dob": "52BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char21",
+      "films": [
+        5
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 22,
+    "fields": {
+      "name": "Diego Delgado",
+      "height": 208,
+      "mass": 58.1,
+      "hair_color": "Black",
+      "gender": "male",
+      "homeworld": "Peru",
+      "dob": "22BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char22",
+      "films": [
+        1,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 23,
+    "fields": {
+      "name": "Jose Delgado",
+      "height": 190,
+      "mass": 68.4,
+      "hair_color": "Blond",
+      "gender": "male",
+      "homeworld": "Mexico",
+      "dob": "27BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char23",
+      "films": [
+        3,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 24,
+    "fields": {
+      "name": "Luis Ruiz",
+      "height": 157,
+      "mass": 75.7,
+      "hair_color": "Red",
+      "gender": "male",
+      "homeworld": "Coruscant",
+      "dob": "40BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char24",
+      "films": [
+        5
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 25,
+    "fields": {
+      "name": "Diego Mart\u00ednez",
+      "height": 199,
+      "mass": 56.7,
+      "hair_color": "None",
+      "gender": "other",
+      "homeworld": "Chile",
+      "dob": "32BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char25",
+      "films": [
+        5,
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 26,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 153,
+      "mass": 50.3,
+      "hair_color": "Blond",
+      "gender": "other",
+      "homeworld": "Chile",
+      "dob": "57BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char26",
+      "films": [
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 27,
+    "fields": {
+      "name": "Diego P\u00e9rez",
+      "height": 175,
+      "mass": 114.9,
+      "hair_color": "Red",
+      "gender": "other",
+      "homeworld": "Argentina",
+      "dob": "30BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char27",
+      "films": [
+        2,
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 28,
+    "fields": {
+      "name": "Luis Ruiz",
+      "height": 198,
+      "mass": 61.3,
+      "hair_color": "None",
+      "gender": "female",
+      "homeworld": "Coruscant",
+      "dob": "16BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char28",
+      "films": [
+        5,
+        4,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 29,
+    "fields": {
+      "name": "Jose P\u00e9rez",
+      "height": 181,
+      "mass": 111.9,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Argentina",
+      "dob": "39BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char29",
+      "films": [
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 30,
+    "fields": {
+      "name": "Luis Delgado",
+      "height": 185,
+      "mass": 67.8,
+      "hair_color": "Brown",
+      "gender": "male",
+      "homeworld": "Argentina",
+      "dob": "47BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char30",
+      "films": [
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 31,
+    "fields": {
+      "name": "Luis Ruiz",
+      "height": 203,
+      "mass": 67.2,
+      "hair_color": "Black",
+      "gender": "other",
+      "homeworld": "Naboo",
+      "dob": "36BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char31",
+      "films": [
+        2,
+        4,
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 32,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 159,
+      "mass": 51.7,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Mexico",
+      "dob": "24BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char32",
+      "films": [
+        6,
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 33,
+    "fields": {
+      "name": "Luis Ruiz",
+      "height": 184,
+      "mass": 76.9,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Tatooine",
+      "dob": "46BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char33",
+      "films": [
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 34,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 208,
+      "mass": 57.7,
+      "hair_color": "Black",
+      "gender": "other",
+      "homeworld": "Argentina",
+      "dob": "59BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char34",
+      "films": [
+        2,
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 35,
+    "fields": {
+      "name": "Jose G\u00f3mez",
+      "height": 164,
+      "mass": 69.1,
+      "hair_color": "Brown",
+      "gender": "other",
+      "homeworld": "Argentina",
+      "dob": "41BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char35",
+      "films": [
+        4,
+        2,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 36,
+    "fields": {
+      "name": "Jose Delgado",
+      "height": 173,
+      "mass": 74.1,
+      "hair_color": "Red",
+      "gender": "female",
+      "homeworld": "Mexico",
+      "dob": "10BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char36",
+      "films": [
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 37,
+    "fields": {
+      "name": "Diego Ruiz",
+      "height": 208,
+      "mass": 95.8,
+      "hair_color": "Black",
+      "gender": "female",
+      "homeworld": "Tatooine",
+      "dob": "51BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char37",
+      "films": [
+        4,
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 38,
+    "fields": {
+      "name": "Ana G\u00f3mez",
+      "height": 170,
+      "mass": 99.5,
+      "hair_color": "Blond",
+      "gender": "male",
+      "homeworld": "Alderaan",
+      "dob": "15BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char38",
+      "films": [
+        5
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 39,
+    "fields": {
+      "name": "Ana Ruiz",
+      "height": 199,
+      "mass": 93.3,
+      "hair_color": "Brown",
+      "gender": "male",
+      "homeworld": "Coruscant",
+      "dob": "48BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char39",
+      "films": [
+        1,
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 40,
+    "fields": {
+      "name": "Luis G\u00f3mez",
+      "height": 159,
+      "mass": 115.6,
+      "hair_color": "Black",
+      "gender": "female",
+      "homeworld": "Argentina",
+      "dob": "30BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char40",
+      "films": [
+        1,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 41,
+    "fields": {
+      "name": "Carmen Delgado",
+      "height": 151,
+      "mass": 85.1,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Tatooine",
+      "dob": "57BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char41",
+      "films": [
+        3,
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 42,
+    "fields": {
+      "name": "Luis Mart\u00ednez",
+      "height": 181,
+      "mass": 64.9,
+      "hair_color": "None",
+      "gender": "female",
+      "homeworld": "Coruscant",
+      "dob": "43BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char42",
+      "films": [
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 43,
+    "fields": {
+      "name": "Luis Mart\u00ednez",
+      "height": 172,
+      "mass": 66.0,
+      "hair_color": "None",
+      "gender": "female",
+      "homeworld": "Naboo",
+      "dob": "56BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char43",
+      "films": [
+        4
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 44,
+    "fields": {
+      "name": "Ana Delgado",
+      "height": 196,
+      "mass": 95.5,
+      "hair_color": "Black",
+      "gender": "male",
+      "homeworld": "Naboo",
+      "dob": "42BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char44",
+      "films": [
+        6,
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 45,
+    "fields": {
+      "name": "Carmen G\u00f3mez",
+      "height": 151,
+      "mass": 78.5,
+      "hair_color": "None",
+      "gender": "other",
+      "homeworld": "Alderaan",
+      "dob": "44BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char45",
+      "films": [
+        5,
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 46,
+    "fields": {
+      "name": "Diego Delgado",
+      "height": 167,
+      "mass": 67.6,
+      "hair_color": "Blond",
+      "gender": "male",
+      "homeworld": "Coruscant",
+      "dob": "32BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char46",
+      "films": [
+        3,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 47,
+    "fields": {
+      "name": "Diego P\u00e9rez",
+      "height": 209,
+      "mass": 113.8,
+      "hair_color": "Brown",
+      "gender": "female",
+      "homeworld": "Mexico",
+      "dob": "10BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char47",
+      "films": [
+        5,
+        6
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 48,
+    "fields": {
+      "name": "Diego G\u00f3mez",
+      "height": 190,
+      "mass": 59.8,
+      "hair_color": "None",
+      "gender": "female",
+      "homeworld": "Coruscant",
+      "dob": "32BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char48",
+      "films": [
+        1
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 49,
+    "fields": {
+      "name": "Ana Mart\u00ednez",
+      "height": 192,
+      "mass": 95.6,
+      "hair_color": "Red",
+      "gender": "male",
+      "homeworld": "Alderaan",
+      "dob": "23BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char49",
+      "films": [
+        2,
+        4,
+        3
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  },
+  {
+    "model": "characters.character",
+    "pk": 50,
+    "fields": {
+      "name": "Jose Mart\u00ednez",
+      "height": 156,
+      "mass": 60.8,
+      "hair_color": "Black",
+      "gender": "female",
+      "homeworld": "Naboo",
+      "dob": "18BBY",
+      "img": "https://dummyimage.com/200x300/000/fff&text=Char50",
+      "films": [
+        2
+      ],
+      "usuario_mod": "admin",
+      "fecha_mod": "2025-07-04",
+      "activo": 1
+    }
+  }
+]
