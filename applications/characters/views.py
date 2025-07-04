@@ -4,6 +4,7 @@ from .serializers import CharacterSerializer
 from .filters import CharacterFilter
 from .permissions import IsAdminOrReadOnly
 from drf_spectacular.utils import extend_schema, OpenApiParameter, OpenApiExample
+# from applications.commons.response import CustomResponse
 
 @extend_schema(
     description="Lista paginada de personajes de Star Wars.",
@@ -35,6 +36,25 @@ class PeopleListView(generics.ListAPIView):
     queryset = Character.objects.all().prefetch_related('films')
     serializer_class = CharacterSerializer
     permission_classes = [IsAdminOrReadOnly]
+    
+    # def list(self, request, *args, **kwargs):
+    #     queryset = self.filter_queryset(self.get_queryset())
+    #     page = self.paginate_queryset(queryset)
+
+    #     if page is not None:
+    #         serialized = self.get_serializer(page, many=True)
+    #         return self.get_paginated_response({
+    #             "codigo": "PEOPLE_PAGINATED",
+    #             "mensaje": "Lista paginada de personajes",
+    #             "respuesta": serialized.data
+    #         })
+
+    #     serialized = self.get_serializer(queryset, many=True)
+    #     return CustomResponse.success(
+    #         data=serialized.data,
+    #         codigo="PEOPLE_LIST_OK",
+    #         mensaje="Personajes obtenidos correctamente"
+    #     )
 
 @extend_schema(
     description="Búsqueda avanzada de personajes por nombre, planeta, género o color de cabello.",
@@ -51,3 +71,22 @@ class SearchCharacterView(generics.ListAPIView):
     serializer_class = CharacterSerializer
     filterset_class = CharacterFilter
     permission_classes = [permissions.IsAuthenticated]
+
+    # def list(self, request, *args, **kwargs):
+    #     queryset = self.filter_queryset(self.get_queryset())
+    #     page = self.paginate_queryset(queryset)
+
+    #     if page is not None:
+    #         serialized = self.get_serializer(page, many=True)
+    #         return self.get_paginated_response({
+    #             "codigo": "CHARACTER_SEARCH_OK",
+    #             "mensaje": "Resultados paginados de la búsqueda",
+    #             "respuesta": serialized.data
+    #         })
+
+    #     serialized = self.get_serializer(queryset, many=True)
+    #     return CustomResponse.success(
+    #         data=serialized.data,
+    #         codigo="CHARACTER_SEARCH_OK",
+    #         mensaje="Búsqueda realizada correctamente"
+    #     )
