@@ -1,5 +1,5 @@
 from .base import *
-import os
+from decouple import config
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -11,13 +11,14 @@ CORS_EXPOSE_HEADERS = ['Content-Disposition']
 
 CSRF_TRUSTED_ORIGINS = []
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('POSTGRES_DB') if os.getenv('POSTGRES_DB') else '',
-        'USER': os.getenv('POSTGRES_USER') if os.getenv('POSTGRES_USER') else '',
-        'PASSWORD': os.getenv('POSTGRES_PASSWORD') if os.getenv('POSTGRES_PASSWORD') else '',
-        'HOST': os.getenv('POSTGRES_HOST') if os.getenv('POSTGRES_HOST') else '',
-        'PORT': os.getenv('POSTGRES_PORT') if os.getenv('POSTGRES_PORT') else ''
+        'NAME': config('POSTGRES_DB', default=''),
+        'USER': config('POSTGRES_USER', default=''),
+        'PASSWORD': config('POSTGRES_PASSWORD', default=''),
+        'HOST': config('POSTGRES_HOST', default=''),
+        'PORT': config('POSTGRES_PORT', default='5432'),
     }
 }
