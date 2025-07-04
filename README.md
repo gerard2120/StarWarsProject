@@ -27,7 +27,17 @@ pip install -r requirements.txt
 ```bash
 python manage.py migrate
 python manage.py loaddata static/fixtures/starwars_data.json
-```
+```backup
+Carpeta static/backup/starwars_db
+Usuarios Backup
+
+### Super User
+- Username: Admin
+- Password: admin123.
+
+### Regular User
+- Username: Gerardo
+- Password: pass123.
 
 ### 4. Crea un superusuario
 
@@ -42,7 +52,7 @@ python manage.py createsuperuser
 Disponible en:
 
 ```
-http://localhost:8000/api/schema/swagger/
+http://localhost:8000/api/v1/docs/
 ```
 
 Incluye definición de modelos, parámetros de búsqueda, ejemplos y autenticación con JWT.
